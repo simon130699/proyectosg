@@ -2,6 +2,22 @@ body {
   background-color: #fff !important;
 }
 
-#footer {
-  background-color: #BDD2B6 !important;
+nav img {
+  position: relative;
+  border: 3px solid #BDD2B6;
+  border-radius: 50%;
+}
+nav li {
+  font-family: "Lobster", cursive;
+  list-style: none;
+}
+nav li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+nav li a:hover {
+  color: #BDD2B6;
+  font-weight: 500;
 }
