@@ -1,3 +1,31 @@
 $colorfondo: #fff;
 $colorvivos: #BDD2B6;
 $fontf:'Lobster', cursive;
+
+/*estilos del nav*/
+
+
+section{
+    h1{
+        display: flex;
+        justify-content: center;
+        font-family: $fontf;
+    }
+    
+}
+
+
+footer{
+    background-color: $colorvivos !important;
+    h3{
+        font-family: $fontf;
+    }
+         a{
+             text-decoration: none;
+            i{
+                font-size: 30px;
+                color: black;
+                
+            } 
+         }  
+}
