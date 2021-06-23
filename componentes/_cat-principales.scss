@@ -1,0 +1,29 @@
+section{
+  H2{
+  font-family: $fontf;
+  }
+  a{
+    text-decoration: none;
+    color: $colorfondo;
+  }
+  a:hover{
+    opacity: 0.7;
+    color: $colorfondo;
+  }
+  H3{
+    font-family: $fontf;
+    border: 1px solid;
+    background-color:$colorvivos;
+  }
+}
+@media only screen and (max-width: 350px) {
+   #cd H3{
+
+    font-size:15px !important;
+  }
+}
+@media only screen and (max-width: 600px){
+#cd h3{
+  text-align:center;
+}
+}

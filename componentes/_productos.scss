@@ -1,0 +1,21 @@
+#verde{
+  margin-top: 20px;
+  background-color:$colorvivos;
+  color: $colorvivos;
+  height: 3px;
+  opacity: 0.5;
+}
+#productos{
+  background-color:$colorvivos;
+  h1{
+    font-family: $fontf;
+  }
+}
+
+#prod img:hover{
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+@media only screen and (max-width: 400px) {
+
+}

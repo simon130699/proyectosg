@@ -1,0 +1,29 @@
+footer {
+  background-color: #BDD2B6 !important;
+}
+footer h3 {
+  font-family:$fontf;
+}
+footer a {
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.5;
+}
+footer a i {
+  font-size: 30px;
+  color: black;
+}
+form input {
+  background-color:$colorvivos !important;
+  border: 2px solid black !important;
+
+}
+@media only screen and (min-width: 1200px){
+     small{
+
+         display: flex;
+         text-align: center!important;
+
+     }
+ }
