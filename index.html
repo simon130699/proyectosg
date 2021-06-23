@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>sg</title>
+  <title>La Tiendita de los Cactus</title>
+  <link rel="icon" type="image/png" sizes="50px" href="imagenes/icons8-cactus-100.png">
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -18,24 +19,282 @@
 
 <body>
   <!-- nav -->
-  <nav>
-    <div class="container-fluid border">
-      <div class="row px-0">
-        <div id="logo" class=" col-6"><img width="110px" height="110px" src="/imagenes/108119285_588122438515025_2871108781316254201_n.jpg" alt="logopagina"></div>
-        <div class=" col-6">
-          <ul class=" row pt-5">
-            <li class=" col-3"><a href="#">Productos</a></li>
-             <li class=" col-3"><a href="#">Preguntas</a></li>
-            <li class=" col-3"><a href="#">compra</a></li>
-            <li class=" col-3"><a href="#">Contacto</a></li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" id="navbarNavDropdown">
+      <div>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="pfrecuentes.html">Preguntas Frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ccomprarpag/ccomprar.html">Como comprar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactopag/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="mates.html">Mates</a></li>
+              <li><a class="dropdown-item" href="cuencos.html">Cuencos</a></li>
+              <li><a class="dropdown-item" href="combos.html">Combos</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
+    <div>
+      <a class="navbar-brand" href="index.html">
+        <img src="imagenes/108119285_588122438515025_2871108781316254201_n.jpg" alt="imagenlogo" width="85" height="85">
+      </a>
     </div>
   </nav>
   <!-- finnav -->
-  <!-- script -->
+  <!-- header -->
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/carrusel1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/carrusel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/carrusel3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <!-- finheader -->
+  <!-- categoria principales -->
+  <section class="container pt-5">
+    <div class="row d-flex">
+      <div class="col-12 ">
+        <h2 class="fs-2  text-center">
+          Categorias Destacadas
+        </h2>
+      </div>
+      <div class="col-12">
+        <div id="cd" class=" d-flex justify-content-center">
+          <a href="combos.html">
+            <h3 class="mx-2 fs-5 h-100">Combos Materos</h3>
+          </a>
+          <a href="bombillas.html">
+            <h3 class=" mx-2 fs-5 h-100">Bombillas</h3>
+          </a>
+          <a href="mates.html">
+            <h3 class= "mx-2 fs-5 h-100">Mates Personalizados</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- categoria principales fin -->
+  <!-- productos -->
+  <div id="verde" class="col-12">. </div>
+  <div id="productos">
+    <div class=" d-flex justify-content-center mt-5 pt-3 border">
+      <h1 class="fs-2 py-3 text-center">Bienvenidos a la Tiendita de los Cactus</h1>
+    </div>
+    <div class=" d-flex justify-content-center bg-light">
+      <h1 class="fs-5">Productos</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="prod" class=" col-12 col-sm-6 col-lg-4 col-xl-3">
+          <img width="280" height="230" src="imagenes/img1.jpg"class=" rounded mx-auto d-block"  alt="matediego">
+          <h5 class="text-center">Mate Maradona</h5>
+          <h6 class=" text-center">
+            $1.000,00
+          </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img2.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Mate Frida</h5>
+        <h6 class=" text-center">
+          $1.000,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img3.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Combo Rufita</h5>
+        <h6 class=" text-center">
+          $1.100,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img4.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Mate Enzo</h5>
+        <h6 class=" text-center">
+          $750,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img5.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Mate Dona</h5>
+        <h6 class=" text-center">
+          $600,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img16opcional.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Mate Floreado</h5>
+        <h6 class=" text-center">
+          $850,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img7.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Cuencos Algarrobo</h5>
+        <h6 class=" text-center">
+          $350,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img8.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Set Completo</h5>
+        <h6 class=" text-center">
+          $3500,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img9.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Mate Cactus</h5>
+        <h6 class=" text-center">
+          $600,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img10.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Combito Floreado</h5>
+        <h6 class=" text-center">
+          $700,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img11.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Mate Frida</h5>
+        <h6 class=" text-center">
+          $600,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img12.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Mate Floreado</h5>
+        <h6 class=" text-center">
+          $750,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3 ">
+        <img width="280" height="230" src="imagenes/img13.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Tabla Pizza</h5>
+        <h6 class=" text-center">
+          $800,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img14.jpg"class=" rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Mate Mandala</h5>
+        <h6 class=" text-center">
+          $600,00
+        </h6>
+      </div>
+      <div id="prod" class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <img width="280" height="230" src="imagenes/img15.jpg"class="  rounded mx-auto d-block" alt="matediego">
+        <h5 class="text-center">Mate Homero</h5>
+        <h6 class=" text-center">
+          $850,00
+        </h6>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <video width="300" height="230" src="imagenes/video1.mp4" class=" rounded mx-auto d-block"  controls muted autoplay></video>
+        <h5 class="text-center">Mate simpson</h5>
+        <h6 class=" text-center">
+          $850,00
+        </h6>
+      </div>
+    </div>
+  </div>
+  <!-- productos fin -->
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <form>
+          <small id="emailHelp" class="px-5 text-muted">Desea recibir informacion a su casilla de correo.</small>
+          <div class="form-group">
+            <label for="exampleInputEmail1"></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Introduce tu nombre">
+          </div>
+          <div class="form-group ">
+            <label for="exampleInputEmail1"></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Introduce tu mail">
+          </div>
+
+          <button type="submit" class="mt-2 btn btn-secondary">Enviar</button>
+        </form>
+      </div>
+      <div class="col-12 col-lg-4 d-flex justify-content-center">
+        <div>
+          <h3  class="fs-5 text-center">Nuestras redes</h3>
+          <a href="https://www.instagram.com/latienditadeloscactus/" target="_blank">
+            <i class="fab fa-instagram p-4"></i>
+          </a>
+          <a href="mailto:chofiperez-@hotmail.com" aria-label="Email">
+            <i class="fas fa-envelope p-4"></i>
+          </a>
+          <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fc%2F5491167514631&e=ATMu7AA-P5DAAnybTtqFN3hEsf5VrNkCsLWWtmbkDB5lXkcLpUbKO-S8APK2lQp0qLLPOyTvoVSMs21ZFo9b0dndp5grALq2gKPsyQ&s=1" target="_blank">
+            <i class="fab fa-whatsapp-square p-4"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <h3 class="fs-5">Contactanos</h3>
+        <p>+54 9 11 6751-4631</p>
+        <hr>
+        <p>chofiperez-@hotmail.com</p>
+        <hr>
+        <p>Malvinas Zona Norte</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- footer fin footer -->
+  <!-- script no tocar -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
