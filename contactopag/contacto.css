@@ -1,0 +1,100 @@
+/*estilos del nav*/
+nav li {
+  padding-left: 50px;
+  font-family: "Pacifico", cursive;
+  font-size: 18px;
+}
+nav li a {
+  color: black !important;
+}
+nav li a:hover {
+  color: #BDD2B6 !important;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-delay: 50ms;
+          transition-delay: 50ms;
+  -webkit-transition-duration: 50ms;
+          transition-duration: 50ms;
+}
+nav img {
+  border: 3px solid #BDD2B6;
+  border-radius: 49%;
+}
+nav img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+@media only screen and (max-width: 992px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: wrap;
+            flex-direction: wrap;
+  }
+}
+section hr {
+  color: #BDD2B6;
+}
+section h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Pacifico", cursive;
+  background-color: #BDD2B6;
+  height: 100%;
+}
+section ol {
+  list-style: none;
+}
+
+footer {
+  background-color: #BDD2B6 !important;
+}
+
+footer h3 {
+  font-family: "Pacifico", cursive;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+footer a i {
+  font-size: 30px;
+  color: black;
+}
+
+form input {
+  background-color: #BDD2B6 !important;
+  border: 2px solid black !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  small {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center !important;
+  }
+}
+#productos {
+  background-color: #BDD2B6;
+}
+#productos h1 {
+  font-family: "Pacifico", cursive;
+}

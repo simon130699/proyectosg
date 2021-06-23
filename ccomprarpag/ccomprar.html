@@ -15,9 +15,50 @@
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" id="navbarNavDropdown">
+      <div>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="pfrecuentes.html">Preguntas Frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ccomprar.html">Como comprar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/proyectosg/contactopag/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="mates.html">Mates</a></li>
+              <li><a class="dropdown-item" href="tablitas.html">Tablitas</a></li>
+              <li><a class="dropdown-item" href="combos.html">Combos</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <a class="navbar-brand" href="index.html">
+        <img src="imagenes/108119285_588122438515025_2871108781316254201_n.jpg" alt="imagenlogo" width="85" height="85">
+      </a>
+    </div>
+  </nav>
+  
   
   <!--Aca esta la seccion-->
-  <section>
+  <section class="text-center w-100">
     <hr>
     <h1>Como comprar</h1>
     <hr>
@@ -38,7 +79,7 @@
           <li>
               <p>Selecciona el método de envío que desees y haz clic en "Continuar"</p>
           </li>
-    </ol> 
+      </ol> 
     <h3>Elegi el metodo de pago</h3>
     <ol>
       <li>
@@ -47,11 +88,19 @@
           <i class="fab fa-cc-mastercard fs-1  "></i>
           <i class="fab fa-cc-amex fs-1 "></i>
           <i class="fab fa-paypal fs-1 "></i>
-        
-       
+           
       </li>
       <li>
-        <p></p>
+        <p>Una vez que hayas elegido el medio de pago, haz clic en "Continuar"</p>
+      </li>
+      <li>
+        <p>Finalmente en la página de Confirmación de compra puedes revisar toda la información de la compra. Luego haz clic en "Continuar"</p>
+      </li>
+     <li>
+        <p>Ahí serás redirigido a otra pantalla para que completes los datos sobre la forma de pago elegida. Después de confirmar la compra recibirás un correo de nuestra parte, ese no será un comprobante de pago.</p>
+      </li>
+      <li>
+        <p>Una vez acreditado el pago, haremos el envío correspondiente de los productos que hayas comprado.</p>
       </li>
      </ol>
   </section>
@@ -63,47 +112,51 @@
       <div class="row">
         <div class="col-12 col-lg-4">
           <form>
-            <h3>Informacion personal</h3>
+            <small id="emailHelp" class="px-5 form-text text-muted ">Desea recibir informacion a su casilla de correo.</small>
+              
             <div class="form-group">
-              <label for="exampleInputEmail1">Correo electronico</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce tu mail">
-              <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+              <label for="exampleInputEmail1"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Introduce tu nombre">
             </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+            <div class="form-group ">
+              <label for="exampleInputEmail1"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Introduce tu mail">
             </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Recordar datos</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+
+            <button type="submit" class="mt-2 btn btn-secondary">Enviar</button>
           </form>
         </div>
         <div class="col-12 col-lg-4 d-flex justify-content-center">
-            <div>
-              <h3 class=>Nuestras redes</h3>
-              <a href="http://instagram.com/lolita.andradaok" target="_blank">
-                <i  class="fab fa-instagram p-4"></i>               
-              </a>
-              <a href="mailto:marialaura_andrada@hotmail.com" aria-label="Email">                
-                <i class="fas fa-envelope p-4"></i>
-              </a>
-              <a>
-                <i class="fab fa-whatsapp-square p-4"></i>
-              </a>
-            </div>  
+          <div>
+            <h3 class="fs-5 text-center">Nuestras redes</h3>
+            <a href="https://www.instagram.com/latienditadeloscactus/" target="_blank">
+              <i class="fab fa-instagram p-4"></i>
+            </a>
+            <a href="mailto:chofiperez-@hotmail.com" aria-label="Email">
+              <i class="fas fa-envelope p-4"></i>
+            </a>
+            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fc%2F5491167514631&e=ATMu7AA-P5DAAnybTtqFN3hEsf5VrNkCsLWWtmbkDB5lXkcLpUbKO-S8APK2lQp0qLLPOyTvoVSMs21ZFo9b0dndp5grALq2gKPsyQ&s=1"
+              target="_blank">
+              <i class="fab fa-whatsapp-square p-4"></i>
+            </a>
+          </div>
         </div>
         <div class="col-12 col-lg-4">
-          <h3>Contactanos</h3>
-          <p>1167993844</p>
+          <h3 class="fs-5">Contactanos</h3>
+          <p>+54 9 11 6751-4631</p>
           <hr>
-          <p>marialaura_andrada@hotmail.com</p>
+          <p>chofiperez-@hotmail.com</p>
           <hr>
-          <p>Castelar Centro</p>
+          <p>Malvinas Zona Norte</p>
         </div>
-      </div>        
+      </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
